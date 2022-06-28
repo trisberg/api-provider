@@ -2,9 +2,9 @@ openapi: 3.0.1
 info:
   title: OpenAPI definition
   version: v0
-# servers:
-# - url: http://api-provider.default.apps.34.139.6.200.nip.io
-#   description: TAP App URL
+servers:
+- url: http://api-provider.default.apps.34.139.6.200.nip.io
+  description: TAP App URL
 paths:
   "/":
     get:
